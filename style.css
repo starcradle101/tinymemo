@@ -47,11 +47,6 @@ button {
   flex-direction: column;
 }
 
-[class|='section'] {
-  /* min-width: 50%; */
-  width: 100%;
-}
-
 .section-writeMemo {
   display: flex;
   flex-direction: column;
@@ -82,7 +77,6 @@ button {
   flex-wrap: wrap;
   gap: 32px;
   padding: 10px;
-  margin: 0 auto;
 }
 
 .memo {
@@ -93,7 +87,6 @@ button {
   height: 200px;
   border-radius: 15px;
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-  overflow: hidden;
 }
 
 .memo > p:first-child {
