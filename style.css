@@ -73,7 +73,10 @@ button {
 }
 
 .section-displayMemo {
+  margin: 0 50px;
   display: flex;
+  flex-direction: column;
+  align-items: center;
   flex-wrap: wrap;
   gap: 32px;
   padding: 10px;
@@ -83,7 +86,7 @@ button {
   background: #31a9ff;
   color: #fff;
   padding: 10px;
-  width: 200px;
+  width: 500px;
   height: 200px;
   border-radius: 15px;
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
@@ -94,7 +97,8 @@ button {
   color: black;
 }
 
-.memo p {
+.memo p,
+h2 {
   overflow: hidden;
   display: -webkit-box;
   -webkit-box-orient: vertical;
@@ -103,11 +107,23 @@ button {
   word-break: break-all;
 }
 
-button[onclick='remove()'] {
+.memo button {
   margin-top: 30px;
   border-radius: 15px;
   background-color: #191919;
   width: 60px;
   line-height: 32px;
   text-align: center;
+  margin-right: 10px;
 }
+
+/* 모달 추가 */
+/* .modal_wrap memo {
+  background: #31a9ff;
+  color: #fff;
+  padding: 10px;
+  width: 500px;
+  height: 200px;
+  border-radius: 15px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+} */
