@@ -1,7 +1,7 @@
 let allMemo = JSON.parse(localStorage.getItem('allMemo'));
 allMemo = allMemo ?? [];
 render();
-
+// 주석 추가
 function saveNote() {
   const title = document.getElementById('title').value;
   const content = document.getElementById('content').value;
